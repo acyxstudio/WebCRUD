@@ -8,7 +8,9 @@ namespace WebCRUD
     {
         public int Id { get; set; }
         [Required]
+        [RegularExpression("^[^0-9]*$", ErrorMessage = "The field should not contain numbers.")]
         public string FirstName { get; set; } = string.Empty;
+        [RegularExpression("^[^0-9]*$", ErrorMessage = "The field should not contain numbers.")]
         public string LastName { get; set; } = string.Empty;
         [EmailAddress]
         public string EmailAddress { get; set; } = string.Empty;
