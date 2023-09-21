@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCRUD", "WebCRUD.csproj", "{91D2033A-D681-48E7-83BB-268D95CC4B41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebCRUD", "WebCRUD.csproj", "{91D2033A-D681-48E7-83BB-268D95CC4B41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestCRUD", "..\UnitTestCRUD\UnitTestCRUD.csproj", "{A44AD257-65B5-49A1-9FD7-57AFBEA41991}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{91D2033A-D681-48E7-83BB-268D95CC4B41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91D2033A-D681-48E7-83BB-268D95CC4B41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91D2033A-D681-48E7-83BB-268D95CC4B41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A44AD257-65B5-49A1-9FD7-57AFBEA41991}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A44AD257-65B5-49A1-9FD7-57AFBEA41991}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A44AD257-65B5-49A1-9FD7-57AFBEA41991}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A44AD257-65B5-49A1-9FD7-57AFBEA41991}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
